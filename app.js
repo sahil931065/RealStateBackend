@@ -10,7 +10,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: 'https://casa-direct.netlify.app/',  
+  origin: 'https://casa-direct.netlify.app',  
   credentials: true,
 }));
 app.use(cors())
